@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11  # Set to your chosen Python version
+    commands:
+      - pip install --upgrade pip
+      - pip install -r requirements.txt
+  build:
+    commands:
+      - echo "Build phase can be empty if you are only installing dependencies."
+ 
+artifacts:
+  files:
+    - '**/*'
