@@ -38,7 +38,7 @@ def hello_world():
         </head>
         <body>
             <div class="container">
-                <h1>🎉 Success!</h1>
+                <h1>hig nicoe</h1>
                 <p>Your Elastic Beanstalk application is running!</p>
                 <p>Deployed via CI/CD Pipeline with AWS CodePipeline</p>
             </div>
